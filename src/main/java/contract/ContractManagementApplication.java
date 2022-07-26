@@ -19,6 +19,7 @@ public class ContractManagementApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ContractManagementApplication.class, args);
+		 System.out.println("avnii");
 	}
 
 	@Bean
@@ -35,5 +36,6 @@ public class ContractManagementApplication {
 	    		log.info("Admin user already created");
 	    	}
 	    };
+	   
 	}
 }
